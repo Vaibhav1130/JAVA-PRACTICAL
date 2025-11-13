@@ -1,0 +1,14 @@
+import java.lang.*;
+public class simple 
+{
+    public static void main(String args[]) {
+        if(age>18)
+         {
+            System.out.println("Adult");
+         }
+          else
+         {
+            System.out.println("Not Adult");
+         }
+    }
+ }

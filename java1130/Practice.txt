@@ -1,0 +1,26 @@
+class Addition 
+{
+  int a,b,c;
+  void add(int x, int y)
+  {
+    a=x;
+    b=y;
+    System.out.println("Addition="+(a+b));
+  }
+  void add(int x, int y, int z)
+  {
+    a=x;
+    b=y;
+    c=z;
+    System.out.println("Addition="+(a+b+c));
+  }
+}
+class Add
+{
+ public static void main (String args[])
+ {
+   Addition a1=new Addition();
+   a1.add(7,9);
+   a1.add(5,3,2);
+ }
+}
